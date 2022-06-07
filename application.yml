@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+info:
+  author: Jardel S. Oliveira
+  mail: jardeloliver197@gmail.com
+server:
+  port: ${PORT:8080}
+message: Generic
