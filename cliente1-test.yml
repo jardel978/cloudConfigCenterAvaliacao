@@ -20,4 +20,4 @@ spring:
 
 message: Caixa DH ambiente de TEST
 server:
-  port: ${PORT_DH_CAIXA:8080}
+  port: ${PORT_DH_CAIXA:8011}
