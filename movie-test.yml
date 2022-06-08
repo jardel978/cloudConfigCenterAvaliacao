@@ -1,24 +1,2 @@
-spring:
-  #datasource:
-    #driverClassName: com.mysql.jdbc.Driver
-    #url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/dh-clientes-dev
-    #username: ${APP_USERNAME_DB}
-      #password: ${APP_PASSWORD_DB}
-  #jpa:
-    #hibernate.ddl-auto: update
-    #generate-ddl: true
-    #format_sql: true
-    #show-sql: true
-    #properties:
-      #javax: #apenas para gerar o create.sql (script do db)
-        #persistence:
-          #schema-generation:
-            #create-source: metadata
-            #scripts:
-              #action: create
-              #create-target: create.sql
-    #hibernate.hbm2ddl.delimiter:
-
-message: Clientes DH ambiente de DEV
 server:
   port: ${PORT_MOVIE:8011}
