@@ -1,4 +1,5 @@
-
+server:
+  port: ${PORT_DH_CAIXA:8011}
 spring:
   datasource:
     url:  ${DB_URL:jdbc:h2:mem:dh-caixa-test}
@@ -19,5 +20,4 @@ spring:
     spring.h2.console.settings.web-allow-others: false
 
 message: Caixa DH ambiente de TEST
-server:
-  port: ${PORT_DH_CAIXA:8011}
+
