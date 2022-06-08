@@ -1,0 +1,2 @@
+server:
+  port: ${PORT_API_GATEWAY:8080}
