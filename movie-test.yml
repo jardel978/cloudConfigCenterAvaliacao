@@ -21,4 +21,4 @@ spring:
 
 message: Clientes DH ambiente de DEV
 server:
-  port: ${PORT_DH_CLIENTES:8011}
+  port: ${PORT_MOVIE:8011}
