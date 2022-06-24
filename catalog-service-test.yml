@@ -18,11 +18,3 @@ spring:
       path: /h2-console
     console.settings.trace: false
     spring.h2.console.settings.web-allow-others: false
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-queue:
-  api-catalog:
-    name: CatalogQueue
